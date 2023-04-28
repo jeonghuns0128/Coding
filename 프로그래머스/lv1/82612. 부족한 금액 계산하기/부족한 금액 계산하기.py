@@ -1,0 +1,8 @@
+def solution(price, money, count):
+    answer = 0
+    answer = (price*(count*(count+1)/2)) - money
+    
+    if answer < 1:
+        answer = 0
+    
+    return answer
